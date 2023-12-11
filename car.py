@@ -21,7 +21,7 @@ selected=option_menu(
     })
 if selected=='Data':
     st.title('APLIKASI KLASIFIKASI KELAS JAMUR')
-    image_path = "carevaluation.jpeg"
+    image_path = "carevaluation.jpg"
     
     # Menampilkan gambar dari file lokal
     st.image(image_path, caption="gambar jamur", use_column_width=True, output_format="auto")
