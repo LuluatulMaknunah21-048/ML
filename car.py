@@ -239,9 +239,7 @@ if selected=='Data':
 if selected=='Implementasi':
     kolom=['label','buying_high','buying_low','buying_med','buying_vhigh','maint_high','maint_low','maint_med','maint_vhigh',
 'doors_2','doors_3','doors_4','doors_5more','persons_2','persons_4','persons_more','lug_boot_big','lug_boot_med','lug_boot_small','safety_high','safety_low','safety_med']
-
     st.title('CAR EVALUATION')
-    col1,col2=st.columns(2)
 
     df = pd.DataFrame(data=[[0]*len(kolom)], columns=kolom)
 
