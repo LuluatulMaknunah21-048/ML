@@ -20,11 +20,11 @@ selected=option_menu(
         "background-color":"purple"},
     })
 if selected=='Data':
-    st.title('APLIKASI KLASIFIKASI KELAS JAMUR')
+    st.title('APLIKASI KLASIFIKASI CAR EVALUATION')
     image_path = "carevaluation.jpg"
     
     # Menampilkan gambar dari file lokal
-    st.image(image_path, caption="gambar jamur", use_column_width=True, output_format="auto")
+    st.image(image_path, caption="gambar MOBIL", use_column_width=True, output_format="auto")
     st.write("Data yang digunakan diambil dari website UCI REPOSITORY : https://archive.ics.uci.edu/dataset/73/mushroom. Dataset mushroom digunakan untuk menganalisis faktor-faktor yang membedakan jamur yang dapat dikonsumsi dengan yang beracun berdasarkan berbagai ciri jamur atau karakteristik jamur.")
 
     st.write("**Deskripsi Dataset:**")
