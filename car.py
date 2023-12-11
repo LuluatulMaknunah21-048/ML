@@ -43,7 +43,6 @@ if selected=='Data':
     st.header("2. One-Hot Encoding:")
     st.write("Semua fitur pada dataset car evaluation bertype data kategorikal. Oleh karena itu, akan dilakukan one-hot encoding pada proses preprocessing.<br>")
     st.write("One-hot encoding merupakan metode representasi data kategorikal dalam bentuk yang dapat diolah oleh model pembelajaran mesin.<br>")
-    ```python
     # Penjelasan Fitur
     st.header("Penjelasan Fitur:")
     st.write("1. **buying (Pembelian):** Tingkat kelas mobil berdasarkan harga pembelian, dengan nilai yang mungkin termasuk \"vhigh\" (sangat tinggi), \"high\" (tinggi), \"med\" (sedang), dan \"low\" (rendah).<br>")
