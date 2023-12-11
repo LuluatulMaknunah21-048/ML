@@ -259,7 +259,7 @@ if selected=='Implementasi':
         df['buying_high']=1
     if buy=='Med':
         df['buying_med']=1
-    if buy='Low':
+    if buy=='Low':
         df['buying_low']=1
 
 
