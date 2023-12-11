@@ -317,7 +317,6 @@ if selected=='Implementasi':
         else:
             st.write('Mohon Isi semua Kolom Pertanyaan')
 if selected=='Me':
-    st.title('ABOUT ME')
-    st.write("My Name is LU'LUATUL MAKNUNAH")
-    st.write("Just Call Me LUNA")
-    st.write("ID Number 210411100048")
+    st.write("Kelompok 9")
+    st.write("Machine Learning")
+    st.write("SEMESTER GANJIL 2023")
