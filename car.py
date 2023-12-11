@@ -310,6 +310,7 @@ if selected=='Implementasi':
     button=st.button('KLASIFIKASI',use_container_width=500,type='primary')
     if button:
         if buying!='Silahkan Pilih'and maint!='Silahkan Pilih'and doors!='Silahkan Pilih'and persons!='Silahkan Pilih'and lug_boot!='Silahkan Pilih'and safety!='Silahkan Pilih':
+            st.write(df)
             with open('car_naive.pkl', 'rb') as naive:
                 naiveby= pickle.load(naive)
             predik=naiveby.predict(df)
